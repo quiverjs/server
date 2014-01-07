@@ -31,7 +31,7 @@
   },
   "main": "./lib/server",
   "bin": {
-    "quiver-command": "./bin/quiver-server"
+    "quiver-server": "./bin/quiver-server"
   },
   "scripts": {
     "test": "make test"

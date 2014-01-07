@@ -1,0 +1,5 @@
+{
+  "greet": "bonjour",
+  "main": "test hello stream handler",
+  "serverPort": 8000
+}
