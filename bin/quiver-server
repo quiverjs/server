@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var server = require('../lib/server')
+var commandArgs = require('optimist').argv
+
+server.runQuiverServer(commandArgs, process.cwd(), function(err, listenPort) {
+  if(err) throw err
+
+  console.log('listening to port ' + listenPort + '...')
+})

@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@quiverjs.org",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-server",
+  "description": "Command-line server wrapper for http handler",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/server",
+  "repository": {
+    "url": "git@github.com:quiverjs/server.git"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "quiver-merge": "0.0.1",
+    "quiver-error": "0.1.x",
+    "quiver-module": "0.0.x",
+    "quiver-component": "0.2.x",
+    "quiver-handleable": "0.0.x",
+    "quiver-node-handler": "0.0.x",
+    "quiver-stream-convert": "0.0.x"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/server/issues",
+    "email": "quiverjs@quiverjs.org"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/server",
+  "bin": {
+    "quiver-command": "./bin/quiver-server"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
