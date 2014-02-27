@@ -6,7 +6,7 @@
   },
   "name": "quiver-server",
   "description": "Command-line server wrapper for http handler",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "homepage": "https://github.com/quiverjs/server",
   "repository": {
     "url": "git@github.com:quiverjs/server.git"
